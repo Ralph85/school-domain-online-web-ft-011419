@@ -11,7 +11,6 @@ class School
      @grade = grade
 
      @roster[@grade] = @student_name
-     roster[10] ||= []
    end
 
 
