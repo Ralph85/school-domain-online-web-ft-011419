@@ -1,6 +1,6 @@
 class School
   attr_reader :name, :roster
-  
+
   def initialize(name)
     @name = name
     @roster = {}
@@ -12,6 +12,6 @@ class School
 
      @roster[@grade] = @student_name = AC Slater
    end
-     
-    
+
+
 end
