@@ -13,18 +13,18 @@ class School
      @roster[@grade] = @student_name{10=>["AC Slater"]}
    end
 
-   def sort 
+   def sort
      nu_hash = {}
-     roster.each do |x, y| 
-       nu_hash[x] = y.sort 
-     end 
+     roster.each do |x, y|
+       nu_hash[x] = y.sort
+     end
      nu_hash
-   end 
-     
-   end 
-   
-   
-   
+   end
+
+   end
+
+
+
    school = School.new("Bayside High School")
    school.roster
    school.add_student("Zach Morris", 9)
