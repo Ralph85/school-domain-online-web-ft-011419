@@ -10,7 +10,7 @@ class School
      @student_name = student_name
      @grade = grade
 
-     @roster[@grade] = @student_name = AC Slater
+     @roster[@grade] = @student_name = "student_name"
    end
 
 
