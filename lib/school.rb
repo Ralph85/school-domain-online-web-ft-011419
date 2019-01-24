@@ -11,7 +11,7 @@ class School
      @grade = grade
 
      @roster[@grade] = @student_name
-     school.add_student("AC Slater", 10)
+     roster.add_student("AC Slater", 10)
    end
 
 
