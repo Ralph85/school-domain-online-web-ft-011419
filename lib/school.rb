@@ -13,5 +13,3 @@ class School
      @roster[@grade] = @student_name{10=>["AC Slater"]}
    end
 
-
-end
