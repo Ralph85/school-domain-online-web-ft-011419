@@ -10,7 +10,8 @@ class School
      @student_name = student_name
      @grade = grade
 
-     @roster[@grade] = @student_name.add_student
+     @roster[@grade] = @student_name
+     school.add_student("AC Slater", 10)
    end
 
 
